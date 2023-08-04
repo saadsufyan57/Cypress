@@ -1,0 +1,8 @@
+{  
+    "watchForFileChanges": true,
+    "viewportWidth": 1920,
+    "viewportHeight": 937,
+    "baseUrl" : "https://knoccsapp-staging.azurewebsites.net/accounts/login",
+    "reporter": "mochawesome"
+
+}

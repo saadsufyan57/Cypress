@@ -1,0 +1,81 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 1,
+    "failures": 0,
+    "start": "2022-09-21T12:20:56.808Z",
+    "end": "2022-09-21T12:21:01.447Z",
+    "duration": 4639,
+    "testsRegistered": 1,
+    "passPercent": null,
+    "pendingPercent": 100,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 1,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "0e0b28cb-32c6-4ed8-9917-6e08c37728c0",
+      "title": "",
+      "fullFile": "cypress/integration/Testing_login_knoccs.js",
+      "file": "cypress/integration/Testing_login_knoccs.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Login to KNOCCS and made a unique contact then logout (skipped due to browser)",
+          "fullTitle": "Login to KNOCCS and made a unique contact then logout (skipped due to browser)",
+          "timedOut": null,
+          "duration": 4620,
+          "state": "pending",
+          "speed": null,
+          "pass": false,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "this.skip();",
+          "err": {},
+          "uuid": "b3c7b05e-1427-465b-a7d4-a526adc005f9",
+          "parentUUID": "0e0b28cb-32c6-4ed8-9917-6e08c37728c0",
+          "isHook": false,
+          "skipped": true
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [
+        "b3c7b05e-1427-465b-a7d4-a526adc005f9"
+      ],
+      "duration": 4620,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}

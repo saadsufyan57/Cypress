@@ -1,0 +1,7 @@
+{
+  "fname": "Saad",
+  "lname": "Sufyan",
+  "email": "saad_sufyan@ymail.com",
+  "password": "Saad@123",
+  "body": "Fixtures are a great way to mock data for responses to routes"
+}
